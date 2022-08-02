@@ -1,0 +1,8 @@
+{
+  "projectName": "website",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "8a2ca4bf"
+}
