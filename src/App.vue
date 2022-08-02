@@ -24,7 +24,7 @@ export default {
 body {
   background-color: #36393f;
   margin: auto;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
 }
 a {
