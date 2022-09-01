@@ -1,12 +1,14 @@
 <template>
 
-<div style="color:#DCDDDE">Dashboard</div>
+<div>
+<p>Heroes</p>
+</div>
 
 </template>
 
 <script>
 export default {
-  name: 'DashPage',
+  name: 'HeroesComponent',
   props: {
     msg: String
   }

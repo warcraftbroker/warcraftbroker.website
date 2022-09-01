@@ -1,12 +1,13 @@
 <template>
 
-<div style="color:#DCDDDE">Guide</div>
-
+<div>
+  <p>Richtlinien</p>
+</div>
 </template>
 
 <script>
 export default {
-  name: 'GuidePage',
+  name: 'GuidelineComponent',
   props: {
     msg: String
   }

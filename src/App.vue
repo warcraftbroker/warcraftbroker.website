@@ -3,8 +3,9 @@
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="color:#DCDDDE;">
-        <li><router-link class="nav-link px-2 link-secondary" to="dashboard">Dashboard</router-link></li>
-        <li><router-link class="nav-link px-2 link-secondary" to="guide">Guide</router-link></li>
+        <li><router-link class="nav-link px-2 link-secondary" to="/">Schaltzentrale</router-link></li>
+        <li><router-link class="nav-link px-2 link-secondary" to="/guide">Anleitung</router-link></li>
+        <li><router-link class="nav-link px-2 link-secondary" to="/about">Über uns</router-link></li>
         <li><a href="https://discord.gg/tJQgNTszBR" class="nav-link px-2 link-secondary">Discord
               <svg style = "position:relative; left:0px; top:-1px;" xmlns="http://www.w3.org/2000/svg" ariahidden="true" focusable="false" viewBox="0 0 100 100" width="14" height="14">
                 <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
@@ -14,7 +15,7 @@
         </li>
       </ul>
     </div>
-    <router-view />
+    <router-view id="container"  />
   </div>
 </template>
 
@@ -33,17 +34,37 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: #DCDDDE;
 }
 body {
   padding-top: 7px;
   background-color: #36393f;
   margin: auto;
-  max-width: 1100px;
+  max-width: 1050px;
   margin: auto;
 }
 a.nav-link.router-link-active {
   color: #f8f9fa !important;
+}
+#container {
+  padding: 30px 40px 40px 40px;
+}
+.content {
+  float:left;
+}
+h5 {
+float:left;
+text-transform: uppercase;
+padding: 0px;
+margin: 0px 0px 25px 0px;
+}
+.nav, .nav-link {
+  padding-bottom: 0px !important;
+  margin:0px;
+}
+p {
+  clear:both;
+  padding:0px 0px 20px 0px;
+  margin: 0px;
 }
 </style>
