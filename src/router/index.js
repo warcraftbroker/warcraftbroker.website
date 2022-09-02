@@ -5,7 +5,7 @@ import QuickStart from './../components/guide/QuickStart.vue'
 import Richtlinien from './../components/guide/Richtlinien.vue'
 import Regeln from './../components/guide/Regeln.vue'
 import Faq from './../components/guide/Faq.vue'
-import Heroes from './../components/guide/Heroes.vue'
+import Features from './../components/guide/Features.vue'
 
 import AboutPage from './../components/About.vue'
 
@@ -21,7 +21,7 @@ const routeInfos = [
         path : "/guide",
         component : GuidePage,
         children: [
-            {path: "", component: Heroes},
+            {path: "", component: Features},
             {path: "quickstart", component: QuickStart},
             {path: "richtlinien", component: Richtlinien},
             {path: "regeln", component: Regeln},

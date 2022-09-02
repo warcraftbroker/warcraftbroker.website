@@ -47,10 +47,19 @@ a.nav-link.router-link-active {
   color: #f8f9fa !important;
 }
 #container {
-  padding: 30px 40px 40px 40px;
+  float:left;
+  width: 100%;
+  padding: 40px 40px 40px 40px;
+  font-size: 15px;
+}
+@media (max-width: 720px) {
+   #container {
+      padding: 20px 15px 15px 15px;
+    }
 }
 .content {
   float:left;
+  width:100%;
 }
 h5 {
 float:left;

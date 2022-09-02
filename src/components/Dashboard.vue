@@ -1,7 +1,7 @@
 <template>
 
 <div id="dashboard">
-  <h5>Schaltzentrale</h5>
+  <br/>
   <p>Hier befindet sich noch kein Inhalt</p>
   <p>Wenn du helfen willst daran etwas zu ändern findest du dieses Projekt unter dem folgenden Link auf GitHub</p>
   <p><svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
