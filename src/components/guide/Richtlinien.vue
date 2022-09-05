@@ -1,14 +1,14 @@
 <template>
-  <div class="row">
+  <div class="row  g-0">
     <div class="col-lg-3">
       <ul class="subnav">
-        <li><router-link class="nav-link px-2 link-secondary" to="/guide/quickstart">Quick Start Guide</router-link></li>
-        <li><router-link class="nav-link px-2 link-secondary" to="/guide/richtlinien">Richtlinien</router-link></li>
-        <li><router-link class="nav-link px-2 link-secondary" to="/guide/regeln">Regeln</router-link></li>
-        <li><router-link class="nav-link px-2 link-secondary" to="/guide/faq">Häufig gestellte Fragen</router-link></li>
+        <li><router-link class="nav-link link-secondary" to="/guide/quickstart">Quick Start Guide</router-link></li>
+        <li><router-link class="nav-link link-secondary" to="/guide/richtlinien">Richtlinien</router-link></li>
+        <li><router-link class="nav-link link-secondary" to="/guide/regeln">Regeln</router-link></li>
+        <li><router-link class="nav-link link-secondary" to="/guide/faq">Häufig gestellte Fragen</router-link></li>
       </ul>
     </div>
-    <div class="col-9">
+    <div class="col">
       <p>Die nachfolgenden Richtlinien gelten sofern keine anders lautende Absprachen stattgefunden haben. Sie dienen als Vorlage um zu vermeiden, dass Booster und Organisatoren die Bedinungen für jeden Auftrag aufs neue aushandeln müssen. </p>
       <ol class="orderedList">
         <li>Die Teilnahme an einem Boost gilt als Einverständniserklärung für die Bedingungen die der jeweilige Organisator stellt</li>
@@ -45,7 +45,6 @@ export default {
   clear:both;
   list-style-type: none;
   padding: 0px!important;
-  margin: 0px 20px 0px 0px !important;
 }
 a {
   color: #42b983;

@@ -1,18 +1,18 @@
 <template>
-  <div class="row">
+  <div class="row  g-0">
     <div class="col-lg-3">
       <ul class="subnav">
-        <li><router-link class="nav-link px-2 link-secondary" to="/guide/quickstart">Quick Start Guide</router-link></li>
-        <li><router-link class="nav-link px-2 link-secondary" to="/guide/richtlinien">Richtlinien</router-link></li>
-        <li><router-link class="nav-link px-2 link-secondary" to="/guide/regeln">Regeln</router-link></li>
-        <li><router-link class="nav-link px-2 link-secondary" to="/guide/faq">Häufig gestellte Fragen</router-link></li>
+        <li><router-link class="nav-link link-secondary" to="/guide/quickstart">Quick Start Guide</router-link></li>
+        <li><router-link class="nav-link link-secondary" to="/guide/richtlinien">Richtlinien</router-link></li>
+        <li><router-link class="nav-link link-secondary" to="/guide/regeln">Regeln</router-link></li>
+        <li><router-link class="nav-link link-secondary" to="/guide/faq">Häufig gestellte Fragen</router-link></li>
       </ul>
     </div>
-    <div class="col-9">
+    <div class="col">
       <p> Die nachfolgenden Regeln sind für alle Mitglieder zwingend verbindlich. Sie gewährleisten den fairen und Blizzard verhaltensregelkonformen Boostbetrieb auf unserem Discord Server.</p>
       <ol class="orderedList">
-        <li>Da escrow Dienste seitens Blizzard verboten wurden hat die Auszahlung eines Auftrags unverzüglich nach Abschluss des Boosts stattzufinden <a href="https://us.forums.blizzard.com/en/wow/t/ty-blizz-for-the-policy-update/1176879/12">[Ref.1]</a></li>
-        <li>Organisatoren die einen Kunden über den ingame Dienstleistungs-Channel geworben haben sind dazu verpflichtet mit dem WoW Charakter an einem Boost teilzunehmen mit dem sie den Kunden geworben haben <a href="https://us.forums.blizzard.com/en/wow/t/boostingrmt-advertising/1172996/9">[Ref.2]</a></li>
+        <li>Da escrow Dienste seitens Blizzard verboten wurden hat die Auszahlung eines Auftrags unverzüglich nach Abschluss des Boosts stattzufinden <a href="https://us.forums.blizzard.com/en/wow/t/ty-blizz-for-the-policy-update/1176879/12" target="_blank">[Ref.1]</a></li>
+        <li>Organisatoren die einen Kunden über den ingame Dienstleistungs-Channel geworben haben sind dazu verpflichtet mit dem WoW Charakter an einem Boost teilzunehmen mit dem sie den Kunden geworben haben <a href="https://us.forums.blizzard.com/en/wow/t/boostingrmt-advertising/1172996/9" target="_blank">[Ref.2]</a></li>
         <li>Da für die teilnehmenden Booster der Ursprung eines Kunden nicht zweifelsfrei festgestellt werden kann sind Organisatoren immer dazu verpflichtet an ihren Boosts teilzunehmen</li>
         <li>Die Teamerstellung ist auf diesem Discord Server dem Bot vorbehalten. Die manuelle Organisation von Teams außerhalb der dafür vorgesehenen Aufträge-Kanäle ist verboten</li>
         <li>Das vorzeitige Verlassen eines Auftrags ist strengstens verboten und führt - bei wiederholten auftreten, ungeachtet der Begründung - zum Ausschluss des betroffenen Boosters</li>
@@ -20,8 +20,8 @@
         <li>Das unnötige @rolle pingen ist zu vermeiden. Der Mindestzeitabstand von 2 Minuten ist auch für Nachrichten in unterschiedlichen Sammelplatz-Kanälen einzuhalten</li>
         <li>Die Sammelplatz-Kanäle sind ausschließlich für Nachrichten gedacht die notwendig sind und einen unmittelbar bevorstehenden Auftrag betreffen</li>
       </ol>
-    <p>Es gelten des weiteren die Discord Community Guidelines:  <a href="https://discord.com/guidelines">https://discord.com/guidelines</a></p>
-    <p>Die Regeln 1, 2 und 3 ergeben sich aus den von Blizzard im Januar 2022 verkündeten neuen Verhaltensregeln. Die ursprüngliche Ankündigung dazu befindet sich hier: <a href="https://us.forums.blizzard.com/en/wow/t/policy-update-for-organized-in-game-services-january-2022/1176836">Policy update for organized ingame services</a></p>
+    <p>Es gelten des weiteren die Discord Community Guidelines:  <a href="https://discord.com/guidelines" target="_blank">https://discord.com/guidelines</a></p>
+    <p>Die Regeln 1, 2 und 3 ergeben sich aus den von Blizzard im Januar 2022 verkündeten neuen Verhaltensregeln. Die ursprüngliche Ankündigung dazu befindet sich hier: <a href="https://us.forums.blizzard.com/en/wow/t/policy-update-for-organized-in-game-services-january-2022/1176836" target="_blank">Policy update for organized ingame services</a></p>
     </div>
   </div>
 </template>
@@ -39,20 +39,19 @@ export default {
 <style scoped>
 .subnav {
   float:left;
-  margin-bottom: 30px !important;
+  padding: 0;
 }
 .orderedList li {
   list-style-type:decimal;
   padding-bottom: 1rem;
 }
-.subnav, .subnav li, .subnav a {
+.subnav > li, .subnav > a {
   clear:both;
   list-style-type: none;
-  padding: 0px!important;
-  margin: 0px 20px 0px 0px !important;
+  padding: 0px !important;
+  margin: 0px 0px 0px 0px !important;
 }
 a {
-  color: #42b983;
   text-decoration: none;
   margin: 0px !important;
 }
