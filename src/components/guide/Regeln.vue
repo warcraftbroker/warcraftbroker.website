@@ -16,7 +16,7 @@
         <li>Da für die teilnehmenden Booster der Ursprung eines Kunden nicht zweifelsfrei festgestellt werden kann sind Organisatoren immer dazu verpflichtet an ihren Boosts teilzunehmen</li>
         <li>Die Teamerstellung ist auf diesem Discord Server dem Bot vorbehalten. Die manuelle Organisation von Teams außerhalb der dafür vorgesehenen Aufträge-Kanäle ist verboten</li>
         <li>Das vorzeitige Verlassen eines Auftrags ist strengstens verboten und führt - bei wiederholten auftreten, ungeachtet der Begründung - zum Ausschluss des betroffenen Boosters</li>
-        <li>Das erstellen von "Test"-Aufträgen ist Verboten</li>
+        <li>Das erstellen von "Test"-Aufträgen ist verboten</li>
         <li>Das unnötige @rolle pingen ist zu vermeiden. Der Mindestzeitabstand von 2 Minuten ist auch für Nachrichten in unterschiedlichen Sammelplatz-Kanälen einzuhalten</li>
         <li>Die Sammelplatz-Kanäle sind ausschließlich für Nachrichten gedacht die notwendig sind und einen unmittelbar bevorstehenden Auftrag betreffen</li>
       </ol>

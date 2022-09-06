@@ -34,7 +34,7 @@
               <p>orga > key holder > rüstung(bei stack) > priorität¹ > beharrlichkeit² > anmeldezeitpunkt</p>
               <ol>
                 <li>Die Priorität eines Boosters sinkt nach jedem erfolgten Boost um 1</li>
-                <li>Die Beharrlichkeit steigt um 1 wenn man sich für einen boost anmeldet und nicht genommen wird.</li>
+                <li>Die Beharrlichkeit steigt um 1 wenn man sich für einen Boost anmeldet und nicht genommen wird.</li>
               </ol>
             </div>
           </div>
