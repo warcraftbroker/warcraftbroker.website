@@ -4,5 +4,6 @@
     "type": "frontend"
   },
   "packageManager": "npm",
-  "hash": "8a2ca4bf"
+  "hash": "8a2ca4bf",
+  "domain": "warcraftbroker.mdbgo.io"
 }

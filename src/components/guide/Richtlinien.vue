@@ -35,7 +35,6 @@ export default {
 <style scoped>
 .subnav {
   float:left;
-  margin-bottom: 30px !important;
 }
 .orderedList li {
   list-style-type:decimal;

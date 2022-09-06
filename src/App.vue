@@ -38,9 +38,8 @@ export default {
 }
 :root {
   --bs-border-color: #36393e;
-  --bs-link-color: #42b983;
-  --bs-link-hover-color: #379b6e;
-  --bs-accordion-active-color:#42b983 !important;
+  --bs-link-color: #42b983 !important;
+  --bs-link-hover-color: #379b6e !important;
 }
 
 body {
