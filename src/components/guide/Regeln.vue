@@ -14,8 +14,8 @@
         <li>Da escrow Dienste seitens Blizzard verboten wurden hat die Auszahlung eines Auftrags unverzüglich nach Abschluss des Boosts stattzufinden <a href="https://us.forums.blizzard.com/en/wow/t/ty-blizz-for-the-policy-update/1176879/12" target="_blank">[Ref.1]</a></li>
         <li>Organisatoren die einen Kunden über den ingame Dienstleistungs-Channel geworben haben sind dazu verpflichtet mit dem WoW Charakter an einem Boost teilzunehmen mit dem sie den Kunden geworben haben <a href="https://us.forums.blizzard.com/en/wow/t/boostingrmt-advertising/1172996/9" target="_blank">[Ref.2]</a></li>
         <li>Da für die teilnehmenden Booster der Ursprung eines Kunden nicht zweifelsfrei festgestellt werden kann sind Organisatoren immer dazu verpflichtet an ihren Boosts teilzunehmen</li>
+        <li>Die Teilnahme an einem Boost gilt als Einverständniserklärung für die Bedingungen die der jeweilige Organisator stellt</li>
         <li>Die Teamerstellung ist auf diesem Discord Server dem Bot vorbehalten. Die manuelle Organisation von Teams außerhalb der dafür vorgesehenen Aufträge-Kanäle ist verboten</li>
-        <li>Das vorzeitige Verlassen eines Auftrags ist strengstens verboten und führt - bei wiederholten auftreten, ungeachtet der Begründung - zum Ausschluss des betroffenen Boosters</li>
         <li>Das erstellen von "Test"-Aufträgen ist verboten</li>
         <li>Das unnötige @rolle pingen ist zu vermeiden. Der Mindestzeitabstand von 2 Minuten ist auch für Nachrichten in unterschiedlichen Sammelplatz-Kanälen einzuhalten</li>
         <li>Die Sammelplatz-Kanäle sind ausschließlich für Nachrichten gedacht die notwendig sind und einen unmittelbar bevorstehenden Auftrag betreffen</li>

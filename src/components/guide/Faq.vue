@@ -9,6 +9,7 @@
       </ul>
     </div>
     <div class="col">
+      <p>Auf unserem Discord Server existiert kein Supportpersonal. Aus diesem Grund sollte bei allen Fragen der erste Ansprechpartner die Person sein die einen auf den Server geladen hat. Die zweite Anlaufstelle sind die #allgemein und #orga Text Chats. Bitte verzichte darauf weitere Personen per Direktnachricht anzuschreiben.</p>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -52,6 +53,18 @@
             </div>
           </div>
         </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Woher kriege ich einen Broker Bot für meinen eigenen Discord Server?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Der Broker Discord Bot ist eine Eigenentwicklung und funktioniert nur in Verbindung mit dem Broker Discord Server. Für nähere Infos zur Programmierung von Bots siehe: <a href="https://discordjs.guide/">https://discordjs.guide/</a> 
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     </div>
@@ -68,6 +81,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  
 .subnav {
   float:left;
   padding: 0;
@@ -83,7 +97,10 @@ ol, li {
   padding: 0px !important;
   margin: 0px 0px 0px 0px !important;
 }
-
+a {
+  text-decoration: none;
+  margin: 0px !important;
+}
 .accordion-body {
   background-color: #49443c;
   border-left: 2px solid #faa81a;

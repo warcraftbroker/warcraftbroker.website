@@ -11,11 +11,12 @@
     <div class="col">
       <p>Die nachfolgenden Richtlinien gelten sofern keine anders lautende Absprachen stattgefunden haben. Sie dienen als Vorlage um zu vermeiden, dass Booster und Organisatoren die Bedinungen für jeden Auftrag aufs neue aushandeln müssen. </p>
       <ol class="orderedList">
-        <li>Die Teilnahme an einem Boost gilt als Einverständniserklärung für die Bedingungen die der jeweilige Organisator stellt</li>
         <li>Die Auszahlung eines Boosts erfolgt auf dem im Auftrag angegebenen Server</li>
+        <li>Das vorzeitige Verlassen eines Auftrags ist verboten und führt - bei wiederholten auftreten, ungeachtet der Begründung - zum Ausschluss des betroffenen Boosters vom Boostbetrieb</li>
         <li>Alle anlegbaren Gegenstände sind dem Kunden eines Boosts zu überlassen. Wenn ein Booster einen Gegenstand nicht handeln kann, verwirkt er den Anspruch auf seinen Goldanteil. Dieser wird dem Kunden zurückgezahlt</li>
         <li>Das erstellen eines Auftrags erfolgt erst NACH erhalt der Zahlung</li>
         <li>Die Leistungsanforderung in #2000 Boosts ist für Aufträge bis einschließlich M+15 weekly ausgelegt. Das Einstellen von höheren Key-Stufen erfolgt in eigener Verantwortung.</li>
+        <li>Voice-Pflicht besteht nur für Aufträge in der High Performance Kategorie.</li>
       </ol>
     </div>
   </div>
