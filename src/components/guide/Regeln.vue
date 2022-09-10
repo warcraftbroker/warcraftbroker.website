@@ -18,7 +18,6 @@
         <li>Die Teamerstellung ist auf diesem Discord Server dem Bot vorbehalten. Die manuelle Organisation von Teams außerhalb der dafür vorgesehenen Aufträge-Kanäle ist verboten</li>
         <li>Das erstellen von "Test"-Aufträgen ist verboten</li>
         <li>Das unnötige @rolle pingen ist zu vermeiden. Der Mindestzeitabstand von 2 Minuten ist auch für Nachrichten in unterschiedlichen Sammelplatz-Kanälen einzuhalten</li>
-        <li>Die Sammelplatz-Kanäle sind ausschließlich für Nachrichten gedacht die notwendig sind und einen unmittelbar bevorstehenden Auftrag betreffen</li>
       </ol>
     <p>Es gelten des weiteren die Discord Community Guidelines:  <a href="https://discord.com/guidelines" target="_blank">https://discord.com/guidelines</a></p>
     <p>Die Regeln 1, 2 und 3 ergeben sich aus den von Blizzard im Januar 2022 verkündeten neuen Verhaltensregeln. Die ursprüngliche Ankündigung dazu befindet sich hier: <a href="https://us.forums.blizzard.com/en/wow/t/policy-update-for-organized-in-game-services-january-2022/1176836" target="_blank">Policy update for organized ingame services</a></p>

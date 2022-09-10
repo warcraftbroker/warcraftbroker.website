@@ -14,9 +14,9 @@
         <li>Die Auszahlung eines Boosts erfolgt auf dem im Auftrag angegebenen Server</li>
         <li>Das vorzeitige Verlassen eines Auftrags ist verboten und führt - bei wiederholten auftreten, ungeachtet der Begründung - zum Ausschluss des betroffenen Boosters vom Boostbetrieb</li>
         <li>Alle anlegbaren Gegenstände sind dem Kunden eines Boosts zu überlassen. Wenn ein Booster einen Gegenstand nicht handeln kann, verwirkt er den Anspruch auf seinen Goldanteil. Dieser wird dem Kunden zurückgezahlt</li>
+        <li>Es besteht Discord-Pflicht für alle Aufträge</li>
         <li>Das erstellen eines Auftrags erfolgt erst NACH erhalt der Zahlung</li>
-        <li>Die Leistungsanforderung in #2000 Boosts ist für Aufträge bis einschließlich M+15 weekly ausgelegt. Das Einstellen von höheren Key-Stufen erfolgt in eigener Verantwortung.</li>
-        <li>Voice-Pflicht besteht nur für Aufträge in der High Performance Kategorie.</li>
+        <li>Die Leistungsanforderung in #2000 Boosts ist für Aufträge bis einschließlich M+15 weekly ausgelegt. Das Einstellen von höheren Key-Stufen erfolgt in eigener Verantwortung</li>
       </ol>
     </div>
   </div>
