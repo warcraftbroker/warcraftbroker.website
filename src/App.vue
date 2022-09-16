@@ -67,7 +67,7 @@ a.nav-link.router-link-active {
   float:left;
   width:100%;
 }
-h5 {
+h5, h6 {
 float:left;
 text-transform: uppercase;
 padding: 0px;
