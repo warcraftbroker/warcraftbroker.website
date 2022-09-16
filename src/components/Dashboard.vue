@@ -2,14 +2,14 @@
 <div id="dashboard">
   <div class="row g-0">
     <div class="col-lg-3"><h5>248 Mitglieder</h5></div>
-    <div class="col-lg-3"><h5>389 Aufträge</h5></div>
-    <div class="col-lg-3"><h5>156 Millionen Gold</h5></div>
-    <div class="col-lg-3"><h5></h5></div>
+    <div class="col-lg-3"><h5>895 Aufträge</h5></div>
+    <div class="col-lg-3"><h5>1206 Dungeons</h5></div>
+    <div class="col-lg-3"><h5>155 Millionen Gold</h5></div>
 
 </div>
   <div class="row g-0">
     <div class="col-lg-12">
-      <apexchart type="area" height="300" :options="options" :series="series"></apexchart>
+      <apexchart type="area" height="350" :options="options" :series="series"></apexchart>
     </div>
 
   </div>
@@ -44,7 +44,18 @@ export default {
           show: false,
           formatter: undefined,
       },},
-        labels: ['Sep. 17','ID 29','ID 30','1994','1995','1996','1997','1998','1999','37','Sep. 17','ID 29','ID 30','1994','1995','1996','1997','1998','1999','37'],
+        labels: [
+  '6. Mai',   '13. Mai',
+  '20. Mai',  '27. Mai',
+  '3. Juni',  '10. Juni',
+  '17. Juni', '24. Juni',
+  '1. Juli',  '8. Juli',
+  '15. Juli', '22. Juli',
+  '29. Juli', '5. Aug.',
+  '12. Aug.', '19. Aug.',
+  '26. Aug.', '2. Sept.',
+  '9. Sept.', '16. Sept.'
+],
 
         grid: {
     show: false,
@@ -79,7 +90,7 @@ export default {
   9910000,        7935000,
   8165000,        5290000,
   970000,         2605000,
-  0, 1445000,
+  500000, 1445000,
   2960000,        3421000,
   8217000,        12300000],
         color: '#67a8e2'
