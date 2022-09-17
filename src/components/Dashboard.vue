@@ -1,14 +1,13 @@
 <template>
 <div id="dashboard">
   <div class="row g-0">
-    <div class="col-lg-3"><h5>248 Mitglieder</h5></div>
-    <div class="col-lg-3"><h5>895 Aufträge</h5></div>
-    <div class="col-lg-3"><h5>1206 Dungeons</h5></div>
     <div class="col-lg-3"><h5>155 Millionen Gold</h5></div>
+    <div class="col-lg-3"><h5 class="middle">895 Aufträge</h5></div>
+    <div class="col-lg-3"><h5 class="middle">248 Mitglieder</h5></div>
 
 </div>
   <div class="row g-0">
-    <div class="col-lg-12">
+    <div id="chart" class="col-lg-12">
       <apexchart type="area" height="350" :options="options" :series="series"></apexchart>
     </div>
 
@@ -31,8 +30,8 @@ export default {
           gradient: {
             shade: 'dark',
             shadeIntensity: 0.5,
-            opacityFrom: 0.9,
-            opacityTo: 0.8,
+            opacityFrom: 0.6,
+            opacityTo: 0.1,
             stops: [0, 100]
           }
         },
@@ -45,22 +44,23 @@ export default {
           formatter: undefined,
       },},
         labels: [
-  '6. Mai',   '13. Mai',
-  '20. Mai',  '27. Mai',
-  '3. Juni',  '10. Juni',
-  '17. Juni', '24. Juni',
-  '1. Juli',  '8. Juli',
-  '15. Juli', '22. Juli',
-  '29. Juli', '5. Aug.',
-  '12. Aug.', '19. Aug.',
-  '26. Aug.', '2. Sept.',
-  '9. Sept.', '16. Sept.'
-],
+          '6. Mai',   '13. Mai',
+          '20. Mai',  '27. Mai',
+          '3. Juni',  '10. Juni',
+          '17. Juni', '24. Juni',
+          '1. Juli',  '8. Juli',
+          '15. Juli', '22. Juli',
+          '29. Juli', '5. Aug.',
+          '12. Aug.', '19. Aug.',
+          '26. Aug.', '2. Sept.',
+          '9. Sept.', '16. Sept.'
+        ],
 
-        grid: {
-    show: false,
-  
-},          xaxis: {
+                grid: {
+            show: false,
+          
+        },          
+        xaxis: {
           labels: {
             style: {
                 colors: '#DCDDDE',
@@ -81,7 +81,7 @@ export default {
 
       },
       series: [{
-        type: 'line',
+        type: 'area',
         name: 'Umsatz',
         data: [  5325000,        10850000,
   9110000,        13755000,
@@ -108,5 +108,8 @@ p {
 a {
   text-decoration: none;
 }
-
+h5.middle {
+  width:100%;
+  text-align: center;
+}
 </style>
