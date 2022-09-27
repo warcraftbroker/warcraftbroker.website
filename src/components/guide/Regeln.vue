@@ -9,7 +9,7 @@
       </ul>
     </div>
     <div class="col">
-      <p> Die nachfolgenden Regeln sind für alle Mitglieder zwingend verbindlich. Sie gewährleisten den fairen und Blizzard verhaltensregelkonformen Boostbetrieb auf unserem Discord Server.</p>
+      <p> Die nachfolgenden Regeln sind zwingend verbindlich. Sie gewährleisten einen fairen, geordneten und Blizzard-verhaltensregelkonformen Boostbetrieb.</p>
       <ol class="orderedList">
         <li>Da escrow Dienste seitens Blizzard verboten wurden hat die Auszahlung eines Auftrags unverzüglich nach Abschluss des Boosts stattzufinden <a href="https://us.forums.blizzard.com/en/wow/t/ty-blizz-for-the-policy-update/1176879/12" target="_blank">[Ref.1]</a></li>
         <li>Organisatoren die einen Kunden über den ingame Dienstleistungs-Channel geworben haben sind dazu verpflichtet mit dem WoW Charakter an einem Boost teilzunehmen mit dem sie den Kunden geworben haben <a href="https://us.forums.blizzard.com/en/wow/t/boostingrmt-advertising/1172996/9" target="_blank">[Ref.2]</a></li>

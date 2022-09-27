@@ -9,7 +9,7 @@
       </ul>
     </div>
     <div class="col">
-      <p>Die nachfolgenden Richtlinien gelten sofern keine anders lautende Absprachen stattgefunden haben. Sie dienen als Vorlage um zu vermeiden, dass Booster und Organisatoren die Bedinungen für jeden Auftrag aufs neue aushandeln müssen. </p>
+      <p>Die nachfolgenden Richtlinien gelten sofern keine anders lautenden Absprachen stattgefunden haben. Sie dienen als Vorlage um zu vermeiden, dass Booster und Organisatoren die Bedinungen für jeden Auftrag aufs neue aushandeln müssen. </p>
       <ol class="orderedList">
         <li>Die Auszahlung eines Boosts erfolgt auf dem im Auftrag angegebenen Server</li>
         <li>Das vorzeitige Verlassen eines Auftrags ist verboten und führt - bei wiederholten auftreten, ungeachtet der Begründung - zum Ausschluss des betroffenen Boosters vom Boostbetrieb</li>

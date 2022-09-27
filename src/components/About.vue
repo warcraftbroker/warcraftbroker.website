@@ -1,11 +1,19 @@
 <template>
 
 <div class="content">
-  <p>Wir sind eine im August 2021 entstandene, aus Warcraftspielern bestehende, Interessensgemeinschaft.
-  Uns verbindet die Freude daran an Mythisch Dungeon Boosts teilzunehmen und zeitgleich die Abneigung gegenüber der nicht regelkonformen, aufdringlichen, gewerblichen und parasitären Natur des üblichen Boosting Angebots.</p> 
-  <p>Unser Discord Server dient uns als erweiterte Freundesliste. Er ermöglicht es, dass wir uns auf unverbindliche Richtlinien einigen und eine faire Verteilung der Aufträge unter unseren Mitgliedern gewährleisten können. Bei uns sind, für die Organisation und Durchführung von Boosts, allein die an einem Boost teilnehmenden Spieler verantwortlich. </p>
-  <p>Seit unserer Gründung sind wir weit über die ursprüngliche Handvoll Leute hinaus gewachsen. Um in der bestehenden, unübersichtlichen Ideen- und Meinungsvielfalt nicht den Überblick zu verlieren orientieren wir uns stets an unserem "Von Booster, für Booster." Leitsatz. Wir hoffen damit auch in Zukunft einen außergewöhnlichen Anlaufpunkt in sachen M+ Boosts bieten zu können.</p>
-  <p><i>-- Andi</i></p>
+  <h6>Der Broker verwaltet kein Gold und verkauft keine Boosts</h6> 
+  <p>Dies hier ist eine Platform die zwischen Organisatoren, Boostern und Kunden vermittelt. 
+    Wir sind ein Anlaufpunkt für Boostinteressierte und wollen es jedem ermöglichen selber unkompliziert Boosts zu organisieren.
+  </p>
+  <p>Auf unserem Discord Server handeln Organisatoren in eigenregie. 
+    Sie werben ingame in eigenem Namen und übernehmen die volle Verantwortung für sämtliche Forderungen und Verbindlichkeiten die in Zusammenhang mit ihren Boosts entstehen. 
+  </p>
+  <h6>Wir schaffen Vertrauen</h6>
+
+  <p>
+    Alle Aufträge die über unseren Discord Server laufen werden archiviert und dienen den jeweiligen Organisatoren als Referenz die ihren Erfolg bzw. ihre Vertraunswürdigkeit bescheinigt.
+ </p> <p>Die Integrität des Goldhandels mit vom Broker als "Trusted" bezeichneten Organisatoren ist bis zu einer Summe von 500.000 Gold garantiert. </p>
+
 </div>
 
 </template>

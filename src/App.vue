@@ -3,7 +3,7 @@
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><router-link class="nav-link px-2 link-secondary" to="/">Schaltzentrale</router-link></li>
+        <li><router-link class="nav-link px-2 link-secondary" to="/dashboard">Schaltzentrale</router-link></li>
         <li><router-link class="nav-link px-2 link-secondary" to="/guide">Anleitung</router-link></li>
         <li><router-link class="nav-link px-2 link-secondary" to="/about">Über uns</router-link></li>
         <li><a href="https://discord.com/invite/aEjVXPNT2s" target="_blank" class="nav-link px-2 link-secondary">Discord
