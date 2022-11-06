@@ -67,11 +67,16 @@ a.nav-link.router-link-active {
   float:left;
   width:100%;
 }
-h5, h6 {
+h5 {
 float:left;
 text-transform: uppercase;
 padding: 0px;
-margin: 0px 0px 25px 0px;
+}
+h6{
+  float:left;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px 0px 15px 0px;
 }
 .nav, .nav-link {
   padding-bottom: 0px !important;

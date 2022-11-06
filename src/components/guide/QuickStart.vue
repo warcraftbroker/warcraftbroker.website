@@ -12,7 +12,7 @@
       <p>Um auf dem Discord Server des Broker's durchstarten zu können kannst du dich hier mit ein paar elementaren Funktionen unseres Bot's vertraut machen.</p>
       <div class="evenSector">
        <h5>0. Einladen</h5> <p>
-         Das Einladen eines neuen Boosters funktioniert per rechts-click auf den Anzeigenamen eines Discord-Nutzers. Diese Aktion verleiht dem ausgewählten Nutzer die @booster Rolle.
+         Das Einladen eines neuen Boosters funktioniert per Rechtsklick auf den Anzeigenamen eines Discord-Nutzers. Diese Aktion verleiht dem ausgewählten Nutzer die @booster Rolle.
          
        </p><img id="einladenImg" src="../../assets/einladen.png">
       </div>
@@ -21,7 +21,7 @@
           1. Registrieren<br/>
         </h5>
         <p>
-          Der /registrieren Befehl kann genutzt werden um einen WoW-Charakter beim Broker zu registrieren. Er steht allen Nutzern mit der @booster Rolle im #allgemein Text Chat zur verfügung. 
+          Der /registrieren Befehl kann genutzt werden, um einen WoW-Charakter beim Broker zu registrieren. Er steht allen Nutzern mit der @booster Rolle im #allgemein Text Chat zur Verfügung. 
         </p>
         <video  autoplay muted loop>
           <source src="../../assets/registrieren.webm" type="video/webm">
@@ -30,10 +30,10 @@
       </div>
       <div class="evenSector">
         <h5>2. Teilnehmen</h5>
-        <p>Im Einsatzbereich-#auftrage können Booster sich, durch clicken des Teilnehmen-Buttons, an den eingehenden Aufträgen anmelden. Die Anmeldung erfordert die Auswahl eines Charakters und der entsprechenden Rolle (Tank/Heal/Dps). Die Angabe eines Schlüsselsteins erfolgt auf freiwilliger Basis.</p>
+        <p>Im Einsatzbereich-#auftrage können Booster sich, durch klicken des Teilnehmen-Buttons, an den eingehenden Aufträgen anmelden. Die Anmeldung erfordert die Auswahl eines Charakters und der entsprechenden Rolle (Tank/Heal/Dps). Die Angabe eines Schlüsselsteins erfolgt auf freiwilliger Basis.</p>
       </div>
       <p>
-        Weitere nützliche Befehle sind /update, /löschen und /voice. Der /update Befehl kann genutzt werden um die rio Werte aller registrierten Charaktere eines Nutzers zu aktualisieren. /löschen kann verwendet werden um einzelne Charaktere aus dem System zu löschen und /voice kann genutzt werden um einen eigenen Voice Kanal zu erstellen. 
+        Weitere nützliche Befehle sind /update, /löschen und /voice. Der /update Befehl kann genutzt werden, um die Rio Werte aller registrierten Charaktere eines Nutzers zu aktualisieren. /löschen kann verwendet werden, um einzelne Charaktere aus dem System zu löschen und /voice kann genutzt werden, um einen eigenen Voice Kanal zu erstellen. 
       </p>
     </div>
     </div>

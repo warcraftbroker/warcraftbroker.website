@@ -9,7 +9,7 @@
       </ul>
     </div>
     <div class="col">
-      <p>Auf unserem Discord Server existiert kein Supportpersonal. Aus diesem Grund sollte bei allen Fragen der erste Ansprechpartner die Person sein die einen auf den Server geladen hat. Die zweite Anlaufstelle sind die #allgemein und #orga Text Chats. Bitte verzichte darauf weitere Personen per Direktnachricht anzuschreiben.</p>
+      <p>Auf unserem Discord Server existiert kein Supportpersonal. Aus diesem Grund sollte bei allen Fragen der erste Ansprechpartner die Person sein, die einen auf den Server geladen hat. Die zweite Anlaufstelle sind die #allgemein und #orga Text Chats. Bitte verzichte darauf weitere Personen per Direktnachricht anzuschreiben.</p>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">

@@ -10,6 +10,8 @@
 </template>
 
 <script>
+  import axios from 'axios';
+
 export default {
   name: 'MemberStats',
   props: {
@@ -18,9 +20,6 @@ export default {
   data: function() {
     return {
       options: {
-        stroke: {
-          curve: 'stepline',
-        },
         fill: {
           type: 'gradient',
           gradient: {
@@ -41,15 +40,6 @@ export default {
             show: false,
           }
         },
-        labels: [
-          '6. Mai',   '13. Mai',
-          '20. Mai',  '27. Mai',
-          '3. Juni',  '10. Juni',
-          '17. Juni', '24. Juni',
-          '1. Juli',  '8. Juli',
-          '15. Juli', '22. Juli',
-          '29. Juli', '5. Aug.',
-        ],
         grid: {
           show: false,
         },
@@ -77,9 +67,6 @@ export default {
             style: {
                 colors: ['#DCDDDE'],
             },
-            formatter: function (val) {
-              return (val > 500) ? `${(val/1000000).toPrecision(3)} M` : val;
-            }
           },
         },
 
@@ -88,18 +75,72 @@ export default {
       series: [{
         type: 'area',
         name: 'Umsatz',
-        data: [  5325000,        10850000,
-          9110000,        13755000,
-          13955000,       14430000,
-          15280000,       8770000,
-          9910000,        7935000,
-          8165000,        5290000,
-          970000,         2605000,
-        ],
+        data: [],
         color: '#67a8e2'
       }],
     }
-  }
+  }, methods: {
+		async getData() {
+			try {
+				await axios.get("/api/?type=memberData")
+				.then(response => {
+					this.options = {
+
+						dataLabels: {
+							enabled: false
+						},
+						tooltip: {
+							enabled: true,
+							theme:'dark',
+							x: {
+								show: false,
+							}
+						},
+						labels: response.data.labels,
+						grid: {
+							show: false,
+						},
+
+						xaxis: {
+								labels: {
+									offsetY: 10,
+									show: true,
+									rotate: -45,
+									rotateAlways: true,
+									style: {
+									colors: "#DCDDDE"
+									}
+							},
+						},
+						chart: {
+							toolbar: {
+								show: false
+							},
+							zoom: {
+								enabled: false,
+							}
+						},
+						yaxis: {
+							labels: {
+							style: {
+							colors: ['#DCDDDE'],
+							},
+							},
+						},				
+					}; 
+					this.series = [{
+						name: 'Mitglieder',
+						data: response.data.values,
+					}]
+				});
+			} catch (error) {
+				console.log(error);
+			}
+		},
+	},
+	created() {
+		this.getData();
+	}
 }
 </script>
 
