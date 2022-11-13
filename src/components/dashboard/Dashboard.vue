@@ -6,15 +6,17 @@
       <router-link class="nav-link link-secondary link-active col-lg-4" to="/dashboard/gold"><h4 class="middle">{{ gold }}</h4><h6 class="middle">Millionen Gold Umsatz</h6></router-link>
       <router-link class="nav-link link-secondary col-lg-4" to="/dashboard/auftraege"><h4 class="middle">{{ contracts }}</h4><h6 class="middle">Erfüllte Aufträge</h6></router-link>
       <router-link class="nav-link link-secondary col-lg-4" to="/dashboard/mitglieder"><h4 class="middle">{{ members }}</h4><h6 class="middle">Discord Nutzer</h6></router-link>
-    </div>
+    </div><br/>
+    <OrgaInformation />
   </div>
 </template>
 
 <script>
 import axios from 'axios';
+import OrgaInformation from './OrgaInformation.vue';
 export default {
   name: 'DashboardPage',
-
+  components: {OrgaInformation},
   data() {
     return {
       gold: '---.-',
