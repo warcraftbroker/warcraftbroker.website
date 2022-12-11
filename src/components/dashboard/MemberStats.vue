@@ -1,12 +1,10 @@
 <template>
-<div id="dashboard">
   <div class="row g-0">
     <div class="col-lg-12">
       <apexchart id="chart"  type="area" height="350" :options="options" :series="series"></apexchart>
     </div>
 
   </div>
-</div>
 </template>
 
 <script>

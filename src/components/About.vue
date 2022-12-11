@@ -1,6 +1,6 @@
 <template>
 
-<div class="content">
+<div id="container">
   <h6>Der Broker verwaltet kein Gold und verkauft keine Boosts</h6> 
   <p>Dies hier ist eine Platform, die zwischen Organisatoren, Boostern und Kunden vermittelt. 
     Wir sind ein Anlaufpunkt für Boostinteressierte und wollen es jedem ermöglichen selber unkompliziert Boosts zu organisieren.
