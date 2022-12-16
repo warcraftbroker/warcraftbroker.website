@@ -12,6 +12,7 @@
 			:num-inputs="5"
 			:is-input-num="true"
 			:conditionalClass="['one', 'two', 'three', 'four', 'five']"
+			:placeholder="['*', '*', '*', '*', '*']"
 			@on-change="handleOnChange"
 			@on-complete="handleOnComplete"
 			/>
@@ -90,8 +91,8 @@ input::placeholder {
 	width:140px;
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
 	outline: transparent !important;
-	background-color: #4f4f4f4e;
-	border: 2px solid #4f4f4f00;
+	background-color: #498ac3;
+	border: 2px solid #498ac3;
 	color: #fff;
 }
 
