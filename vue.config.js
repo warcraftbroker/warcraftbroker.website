@@ -22,6 +22,11 @@ module.exports = defineConfig({
         ws: true,
         changeOrigin: true
       },
+      '^/verify': {
+        target: 'https://warcraftbroker.com/',
+        ws: true,
+        changeOrigin: true
+      },
     }
   },
   transpileDependencies: true
