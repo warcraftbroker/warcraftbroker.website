@@ -1,7 +1,6 @@
 <template>
     <div id="userStats" :class="checkVisibilty">
-        <h6>User Information</h6>
-        <img id="avatar" :src="avatarLink" />
+            <img id="avatar" :src="avatarLink" />
         <div id="infoText" v-html="infoString">
 
         </div>
@@ -51,8 +50,9 @@ export default {
     display: none;
 }
 #userStats {
+    float: left;
     width: 100%;
-    padding: 0px 0.5rem 0px 0.5rem;
+    margin: 0px 0px 45px 0px;
     font-size: 15px;
 }
 h6 {
@@ -62,8 +62,7 @@ h6 {
 #avatar {
     float:left;
     clear: left;
-    padding: 0px 10px 0px 10px;
-    margin: 0px 20px 5px 20px;
+    margin: 0px 20px 0px 0px;
     border-radius: 50%;
 }
 #infoText {
